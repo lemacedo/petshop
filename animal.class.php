@@ -58,7 +58,7 @@ abstract class Animal{
 		$dados .= "<br/> Raça: ". $this->raca;
 		$dados .= "<br/> Id do Animal: ". $this->idAnimal;
 		$dados .= "<br/> Estado de saúde: ". self::estadoSaude();
-		$dados .= "<br/> Dono: ". self::getDono();
+		$dados .= "<br/> Dono: ". self::getDono()->getNome();
 
 		return $dados;
 	}

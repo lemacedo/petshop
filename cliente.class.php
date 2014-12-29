@@ -23,10 +23,14 @@ class Cliente{
 		return $nome;
 	}
 
-	//Não é mto recomendável por ser método mágico e pouco intuitivo
-	//public function __toString(){
-	//	return $this->nome;
-	//}
+	public function getNome(){
+		$this->nome;
+	}
+
+	//Para retornar o nome corretamento quando é chamado a função getDono() retorna o nome do dono
+	public function __toString(){
+		$this->nome;
+	}
 
 
 

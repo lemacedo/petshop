@@ -7,8 +7,6 @@ class Cachorro extends Animal{
 		parent::__construct($nome,$idade,$raca,$dono);
 		$this->corPelo = $corPelo;
 	}
-	
-
 
 	public function getSom(){
 		return 'Auauau';

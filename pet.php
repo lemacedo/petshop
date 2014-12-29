@@ -9,10 +9,10 @@
 	$ana = new Cliente('Ana','1535331245');
 	$maria = new Cliente('Maria','1535313434');
 
-	$dog  = new Cachorro('Rex', 4, 'Labrador' ,$ana->nome ,'Amarelo');
-	$dog2 = new Cachorro('Vira',6,'Vira-Lata', $ana->nome, 'preto');
-	$dog3 = new Cachorro('Box',2, 'Pitbull', $maria->nome, 'preta');
-	$pass = new Passarinho('Linho', 1, 'Papagaio', $maria->nome, 0.4, 30);
+	$dog  = new Cachorro('Rex', 4, 'Labrador' ,$ana ,'Amarelo');
+	$dog2 = new Cachorro('Vira',6,'Vira-Lata', $ana, 'preto');
+	$dog3 = new Cachorro('Box',2, 'Pitbull', $maria, 'preta');
+	$pass = new Passarinho('Linho', 1, 'Papagaio', $maria, 0.4, 30);
 
 	//associa animal para dono
 	$ana->setAnimal($dog);
